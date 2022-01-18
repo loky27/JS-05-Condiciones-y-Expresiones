@@ -7,9 +7,8 @@ Escribe una función que tome un nombre y verifique si la lista tiene ese nombre
 parte 3
 Escribe una función que tome una lista de nombres. Esta función debería comparar la lista tomada en la nameslista que tiene actualmente. La función debe devolver una matriz con los nombres que están en ambas listas.
 parte 4
-Escriba una función que tome una lista de nombres y devuelva una lista de números enteros con la longitud de los nombres en el mismo orden en que se recibieron. Sugerencia para usar la función de empuje
-
-*/var names = ["Maria", "Antony", "Joy", "Juan"];
+Escriba una función que tome una lista de nombres y devuelva una lista de números enteros con la longitud de los nombres en el mismo orden en que se recibieron. Sugerencia para usar la función de empuje*/
+var names = ["Maria", "Antony", "Joy", "Juan"];
 
 const nam=(...name)=>{
      name.forEach(element =>
@@ -85,4 +84,4 @@ var d = 4;
 var e = 'five';
 var f = a || b || c || d || e;
 
-console.log(f);
+console.log(f); //4
